@@ -3,7 +3,7 @@
 This is a web application built using Flask for predicting house prices based on user-inputted features. The application leverages machine learning models to provide accurate price predictions based on a dataset of house attributes.
 
 ## Table of Contents
-# Base-of-start-for-ML
+
 # Exploratory Data Analysis (EDA) Pipeline
 
 ![EDA Pipeline](https://github.com/MUSTAKIMSHAIKH2942/Exploratory-Insight-Generator-/blob/main/EDA.png)  <!-- Add an image illustrating the EDA process -->
@@ -25,6 +25,9 @@ The **Exploratory Data Analysis (EDA) Pipeline** is a comprehensive Python-based
 
 
 ![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/Exploratory-Insight-Generator-/blob/main/leftpannel.PNG)
+![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/House-Price-Prediction/blob/main/H_P_P.PNG)
+
+
 
 ## Installation
 
