@@ -2,7 +2,6 @@
 
 This is a web application built using Flask for predicting house prices based on user-inputted features. The application leverages machine learning models to provide accurate price predictions based on a dataset of house attributes.
 
-## Table of Contents
 
 # Exploratory Data Analysis (EDA) Pipeline
 
@@ -107,7 +106,7 @@ Thanks to the libraries used: Pandas, NumPy, Matplotlib, and Seaborn for their i
 Conclusion
 This EDA pipeline provides a structured and automated approach to exploratory data analysis, making it easier to derive insights from datasets. By following the outlined steps, you can efficiently analyze your data and generate comprehensive reports.
 
-
+## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
