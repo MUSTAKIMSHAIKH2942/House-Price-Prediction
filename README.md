@@ -24,8 +24,7 @@ The **Exploratory Data Analysis (EDA) Pipeline** is a comprehensive Python-based
 "The project directory is organized as follows:"
 
 
-![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/Exploratory-Insight-Generator-/blob/main/leftpannel.PNG)
-![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/House-Price-Prediction/blob/main/H_P_P.PNG)
+![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/House-Price-Prediction/blob/main/HPP-Leftpannel.PNG)
 
 
 
@@ -181,6 +180,8 @@ Prediction: The model predicts the house price based on the input provided.
 Display Result: The predicted price is displayed on the same web page.
 Contributing
 Contributions are welcome! If you want to contribute, please follow these steps:
+
+![Directory Structure Pic](https://github.com/MUSTAKIMSHAIKH2942/House-Price-Prediction/blob/main/H_P_P.PNG
 
 ## Fork the repository.
 Create a new branch (git checkout -b feature-branch).
