@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <h1>House Price Prediction</h1>
+        <form action="/predict" method="POST">
+            <label for="model_type">Select Model Type:</label>
+            <select name="model_type" required>
+                <option value="linear">Linear Regression</option>
+                <option value="random_forest">Random Forest</option>
+                <option value="xgboost">XGBoost</option>
+            </select>
+            
+            <label for="lot_frontage">Lot Frontage:</label>
+            <input type="number" name="lot_frontage" placeholder="Lot Frontage" step="any" required>
+
+            <label for="lot_area">Lot Area:</label>
+            <input type="number" name="lot_area" placeholder="Lot Area" step="any" required>
+
+            <label for="ms_subclass">MS SubClass:</label>
+            <input type="number" name="ms_subclass" placeholder="MS SubClass" required>
+
+            <button type="submit">Predict Price</button>
+        </form>
+
+        {% if prediction %}
+            <h2>Predicted Price: ${{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
