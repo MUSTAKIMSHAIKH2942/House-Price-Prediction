@@ -6,6 +6,7 @@ import logging
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+
 def plot_categorical_features(df):
     """Plot count plots for categorical features and save the figures."""
     categorical_cols = df.select_dtypes(include='object').columns
