@@ -187,6 +187,7 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
+![Output_pic](https://github.com/MUSTAKIMSHAIKH2942/House-Price-Prediction/blob/main/house_pp.PNG)
 
 
 ### Instructions to Use:
